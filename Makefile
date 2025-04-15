@@ -7,7 +7,7 @@ APP = hw10
 
 $(APP): $(OBJS)
 	$(CC) $(CFLAGS) *.o -o $(APP)
-
+	
 clean:
 	/bin/rm -rf *.o
 	/bin/rm -rf $(APP)
